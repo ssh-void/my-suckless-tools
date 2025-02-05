@@ -59,12 +59,12 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run",NULL };
+static const char *dmenucmd[] = { "dmenu_run -i -fn "Ubunto Font:style=Medium:size=15" -nb '#333333' -nf '#ffffff' -sb '#c61169' -sf '#f9f102'",NULL };
 static const char *termcmd[]  = { "st",NULL };
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
-//	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
+        { MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_b,      togglebar,      {0} }, /* bat off or on */
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
