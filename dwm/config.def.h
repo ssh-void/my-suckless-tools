@@ -59,7 +59,7 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run -i -fn "Ubunto Font:style=Medium:size=15" -nb '#333333' -nf '#ffffff' -sb '#c61169' -sf '#f9f102'",NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-i", "-fn", "Ubuntu Font:style=Medium:size=15", "-nb", "#333333", "-nf", "#ffffff", "-sb", "#c61169", "-sf", "#f9f102", NULL };
 static const char *termcmd[]  = { "st",NULL };
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
