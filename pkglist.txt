@@ -3,4 +3,4 @@ firefox fribidi-devel fzy git grub-i386-efi grub-x86_64-efi harfbuzz-devel
 libX11-devel libXft-devel libXinerama-devel libXrandr-devel lvm2 maim
 mdadm mdocml megatools neofetch neovim nerd-fonts numlockx opendoas tmux
 ttf-ubuntu-font-family void-docs-browse void-live-audio vscode xbanish
-xclip xorg-minimal xrdb xsetroot xtools-minimal
+xclip xorg xorg-minimal xrdb xsetroot xtools-minimal
