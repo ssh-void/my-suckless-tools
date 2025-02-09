@@ -21,3 +21,5 @@ sudo update-grub
 sudo xbps-reconfigure -fa && fc-cache -fv && sudo xbps-reconfigure -f fontconfig
 sudo rm /var/service/agetty-tty{3,4,5,6}
 cd  ~/my-suckless-tools/src/ && bash src.sh
+
+echo "permit nopass $(whoami) as root" | sudo tee /etc/doas.conf > /dev/null
