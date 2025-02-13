@@ -53,6 +53,8 @@ export IMAGE="sxiv"
 export WM_NAME="LG3D" # contourner certains bogues matlab
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+# man color 
+export MANPAGER="less -R --use-color -Dd+g -Du+b"  # Colored man
 # xbps xtools
 export XBPS_DISTDIR="/opt/void-packages"
 
