@@ -6,6 +6,7 @@ sudo chsh -s /bin/bash root
 
 sudo ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/
 sudo ln -s /etc/sv/dbus/ /var/service/
+sudo ln -s /etc/sv/spice-vdagentd/ /var/service/
 
 sudo cp -rf ~/my-suckless-tools/xorg.conf.d/ /etc/X11/
 cd ~/my-suckless-tools/ 
