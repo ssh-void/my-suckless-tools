@@ -1,5 +1,5 @@
 base-devel xorg-server xinit xorg-fonts xorg-input-drivers
 git tmux 
 firefox 
-libX11-devel libXft-devel libxinerama-dev
+libX11-devel libXft-devel libXinerama-devel
 spice-vdagent
