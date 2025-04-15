@@ -1,5 +1,9 @@
-base-devel xorg-server xinit xorg-fonts xorg-input-drivers
+base-devel xorg-server xinit xorg-fonts xorg-input-drivers xrandr xrdb
 git tmux 
 firefox 
 libX11-devel libXft-devel libXinerama-devel
 spice-vdagent
+xclip 
+opendoas
+fastfetch 
+neovim 
