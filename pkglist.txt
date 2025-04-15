@@ -1,2 +1,3 @@
 base-devel git tmux xorg-server xinit xorg-fonts xorg-input-drivers 
 firefox libX11-devel linXft-devel libxinerama-dev
+spice-vdagent
