@@ -1,8 +1,4 @@
 # -------------------------------------------------------------------------------------- #
-# ------------------------------------->     aliases    <------------------------------- #
-# -------------------------------------------------------------------------------------- #
-
-# -------------------------------------------------------------------------------------- #
 # -------------------------------------->      vim       <------------------------------ #
 # -------------------------------------------------------------------------------------- #
 set -o vi
@@ -58,10 +54,6 @@ alias h='history | cut -c 8- | tac | fzy -l 20 | xclip -selection clipboard'
 alias xp="xclip -selection clipboard"
 alias fontlist="fc-list : family | sort | uniq"
 alias pdf="zathura "
-alias ppt="loimpress "
-alias worf="lowriter "
-alias exel="localc "
-alias tldr="tealdeer"
 alias sb="source $HOME/.bashrc ; source $HOME/.profile ; source $HOME/.bash_profile"
 
 # --------------------------------------------------------------------------------------- #
@@ -80,18 +72,15 @@ alias cl="clear"
 alias m="man"
 alias zconf="nvim $HOME/.zshrc"
 alias bconf="nvim $HOME/.bashrc"
-alias vv="nvim ~/.tmux.conf"
 
 # --------------------------------------------------------------------------------------- #
 # --------------------------------->     ls & eza     <---------------------------------- #
 # --------------------------------------------------------------------------------------- #
-alias l="eza -F -l --color=always --group-directories-first"  # long format
-alias ll="eza -F -dlg .* --group-directories-first --color=auto"
 alias lls="ls --color=auto -a --group-directories-first"
 alias ls="ls --color=auto --group-directories-first"
 alias ld="ls --color=auto -d */ && ls --color=auto -d .*/ "
-#alias l="ls -Flh --group-directories-first --color=auto"
-#alias ll="ls -F -dlh .* --group-directories-first --color=auto"
+alias l="ls -Flh --group-directories-first --color=auto"
+alias ll="ls -F -dlh .* --group-directories-first --color=auto"
 
 # --------------------------------------------------------------------------------------- #
 # --------------------------------->      neovim      <---------------------------------- #
