@@ -11,7 +11,7 @@ echo -e -n "\x1b[\x35 q"
 bind -f "~/.inputrc"
 
 # Source the aliases file
-[ "$BASH" ] && [ -f $HOME/.config/bash/.bash_aliases ] && . $HOME/.config/bash/.bash_aliases
+[ "$BASH" ] && [ -f $HOME/.bash_aliases ] && . $HOME/.bash_aliases
 
 # enable programmable completion features (you don't need to enable)
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
