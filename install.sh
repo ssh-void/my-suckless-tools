@@ -9,8 +9,8 @@ sudo ln -s /etc/sv/dbus/ /var/service/
 sudo ln -s /etc/sv/spice-vdagentd/ /var/service/
 
 sudo cp -rf ~/my-suckless-tools/xorg.conf.d/ /etc/X11/
-cd ~/my-suckless-tools/ 
-cp -rf .bashrc .profile .bash_profile .tmux.conf .xinitrc .aliases ~/
+cd ~/my-suckless-tools/  && cp -rf .bashrc .profile .bash_profile .tmux.conf .xinitrc .aliases  $HOME/
+
 cp -rf ~/my-suckless-tools/.local/ ~/
 cp -rf ~/my-suckless-tools/.fonts/ ~/
 
