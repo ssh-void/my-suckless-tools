@@ -3,6 +3,7 @@ git tmux
 firefox 
 libX11-devel libXft-devel libXinerama-devel
 spice-vdagent
+fzy
 xclip 
 opendoas
 fastfetch 
