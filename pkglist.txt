@@ -1,10 +1,12 @@
-base-devel xorg-server xinit xorg-fonts xorg-input-drivers xrandr xrdb
+make gcc 
+glib-devel pkg-config 
+xorg-server xinit xorg-input-drivers xrandr xrdb
 git tmux 
-firefox 
+firefox font-inconsolata-otf
 libX11-devel libXft-devel libXinerama-devel
 spice-vdagent
 fzy
 xclip 
 opendoas
 fastfetch 
-neovim 
+vim 
