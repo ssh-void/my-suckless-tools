@@ -1,5 +1,5 @@
 make gcc 
-glib-devel pkg-config 
+pkg-config 
 xorg-server xinit xorg-input-drivers xrandr xrdb
 git tmux 
 firefox font-inconsolata-otf
@@ -8,5 +8,5 @@ spice-vdagent
 fzy
 xclip 
 opendoas
-fastfetch 
+htop 
 vim 
