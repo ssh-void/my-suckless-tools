@@ -10,3 +10,4 @@ xclip
 opendoas
 htop 
 vim 
+harfbuzz-devel
