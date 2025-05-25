@@ -9,5 +9,5 @@ fzy
 xclip 
 opendoas
 htop 
-vim 
+neovim
 harfbuzz-devel
