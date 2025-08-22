@@ -1,6 +1,6 @@
 make gcc 
 pkg-config 
-xorg-server xinit xorg-input-drivers xrandr xrdb
+xorg-server xauth xinit xorg-input-drivers xrandr xrdb 
 git tmux 
 firefox font-inconsolata-otf
 libX11-devel libXft-devel libXinerama-devel
